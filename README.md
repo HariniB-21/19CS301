@@ -15,30 +15,7 @@ STEP 6: Print the result.
 
 STEP 7 : Stop.
 
-Program:
-def create_matrix(n,m):
-         M = []
-         for i in range(n):
-                   row = []
-                   for j in range(m):
-                      x = int(input())
-                       row.append(x)
-           M.append(row)
-         return M
-r,c = input().split()
-A = create_matrix(int(r),int(c))
-B = create_matrix(int(r),int(c))
-C = []
-for i in range(int(r)):
-         R = []
-        for j in range(int(c)):
-                item = A[i][j]+B[i][j]
-        R.append(item)
-C.append(R)
-print(A)
-print(B)
-print(C)
-
+<pre lang="markdown"> ```python def create_matrix(n, m): M = [] for i in range(n): row = [] for j in range(m): x = int(input()) row.append(x) M.append(row) return M r, c = input().split() A = create_matrix(int(r), int(c)) B = create_matrix(int(r), int(c)) C = [] for i in range(int(r)): R = [] for j in range(int(c)): item = A[i][j] + B[i][j] R.append(item) C.append(R) print(A) print(B) print(C) ``` </pre>
 OUTPUT:
 ![Screenshot 2025-05-14 191622](https://github.com/user-attachments/assets/fd1911c9-5a3c-4d50-9a0d-69c4369802df)
 
