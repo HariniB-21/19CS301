@@ -1,4 +1,6 @@
 # 19CS301-Module9
+# Register No - 212222020008
+# Name - Harini.B Soker
 EX: 9.1 MATRIX OPERATIONS
 ### Aim: To Write a Python Program to add two matrices by reading the matrix from the user.
 ### Algorithm:
