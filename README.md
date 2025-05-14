@@ -40,6 +40,6 @@ print(B)
 print(C)
 
 OUTPUT:
-![im1](https://github.com/user-attachments/assets/1ea3eb2c-249b-489f-b255-0784e2c03b08)
+![Screenshot 2025-05-14 191622](https://github.com/user-attachments/assets/fd1911c9-5a3c-4d50-9a0d-69c4369802df)
 
 Result: Thus, the given program is implemented and executed successfully .
