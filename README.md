@@ -2,7 +2,7 @@
 ### Register No - 212222020008
 ### Name - Harini B
 
-# EX: 9.1 MATRIX OPERATIONS
+# ExNo: 9.1 MATRIX OPERATIONS
 ### Aim: To Write a Python Program to add two matrices by reading the matrix from the user.
 ### Algorithm:
 STEP 1: Start.
@@ -49,7 +49,7 @@ print(C)
 
 ### Result: Thus, the given program is implemented and executed successfully .
 
-# EX: 9.2 LIST COMPREHENSION
+# ExNo: 9.2 LIST COMPREHENSION
 ### Aim: To Write a Python Program to read n elements in the list and separate  odd and even elements in the list.
 ### Algorithm:
 STEP 1: Start the program.
@@ -86,7 +86,7 @@ print(l2)
 
 ### Result:Thus, the given program is implemented and executed successfully .
  
-# EX: 9.3 ADVANCED LIST PROCESSING
+# ExNo: 9.3 ADVANCED LIST PROCESSING
 ### Aim: To Write a Python program to Find the transpose of a matrix using list Comprehension.
 ### Algorithm:
 STEP 1: Start.
@@ -124,7 +124,7 @@ T = [[r[i]for r in matrix]for i in range(len(matrix[0]))]
 
 ### Result: Thus, the given program is implemented and executed successfully .
 
-# EX: 9.4 TOEPLITZ MATRIX
+# ExNo: 9.4 TOEPLITZ MATRIX
 ### Aim: To Write a Python Program to check whether the given matrix is Toeplitz Matrix.
 ### Algorithm:
 STEP 1: Start.
