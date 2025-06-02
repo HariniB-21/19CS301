@@ -175,6 +175,35 @@ if isThoeplitz(A):
 ![image](https://github.com/user-attachments/assets/0ed7d16f-55eb-4f53-89f2-ceb6e834fd07)
 
 ### Result: Thus, the given program is implemented and executed successfully.
+# Ex No 9.5: SEB - Create Matrix
+
+### Aim:
+To write a Python program to generate an identity-like matrix with the diagonal elements replaced by `n`, without reading the elements of the matrix.
+
+### Algorithm:
+
+**STEP 1:** Start.  
+**STEP 2:** Accept an integer input `n` representing the size of the matrix.  
+**STEP 3:** Use nested loops or list comprehension to generate the matrix:  
+- If row index `i` is equal to column index `j`, insert `n`.  
+- Else, insert `0`.  
+**STEP 4:** Print each row of the matrix.  
+**STEP 5:** Stop.
+
+### Program:
+```python
+n = int(input())
+print("Matrix:")
+for i in range(n):
+    row = [n if i == j else 0 for j in range(n)]
+    print(" ".join(map(str, row)))
+```
+### Output:
+![image](https://github.com/user-attachments/assets/a0665f3e-cf9d-489a-a20b-e79cee8a1b46)
+### Result:
+Thus the program was executed successfully.
+
+
 
 
 
